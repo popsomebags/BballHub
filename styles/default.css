@@ -1,0 +1,25 @@
+body {
+    background-color: #FAF0DC;
+}
+
+.margintop
+{
+    margin-top: 12%;
+}
+
+.sections
+{
+    margin-top: 12%; 
+    margin-left: 10%; 
+    width: 65%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D3D3D3;
+    text-decoration: none;
+}
