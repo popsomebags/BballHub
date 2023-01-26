@@ -2,15 +2,13 @@ body {
     background-color: #FAF0DC;
 }
 
-.margintop
-{
+.margintop {
     margin-top: 12%;
 }
 
-.sections
-{
-    margin-top: 12%; 
-    margin-left: 10%; 
+.sections {
+    margin-top: 10%;
+    margin-left: 10%;
     width: 65%;
 }
 
@@ -22,4 +20,19 @@ a {
 a:hover {
     color: #D3D3D3;
     text-decoration: none;
+}
+
+.resize {
+    height: 250px;
+    width: 300px;
+}
+
+form 
+{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.height {
+    height: 45px;
 }

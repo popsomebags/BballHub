@@ -36,19 +36,41 @@
             </ul>
         </div>
 
-        <div class="overflow-auto margintop">
-            <div class="container w-50 ">
-                <h3><strong>Welcome to BballHub</strong></h3>
-                <p class="lead">
-                    BballHub is a website where you can find local events to premiere basketball games. Whether it be
-                    collegiate or professional, BBallHub can find basketball events
-                    around UNCC and the Charlotte area with ease.
-                </p>
-                <p>
-                    Click the events tab to see what events are around you!
-                </p>
+        <form>
+            <div class="form-group">
+                <label for="category">Category</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>--Select a Category--</option>
+                    <option value="UNCC">UNCC Event</option>
+                    <option value="Spectrum">Spectrum Center Event</option>
+                </select>
             </div>
-        </div>
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="title" class="form-control" id="exampleInputPassword1" placeholder="title">
+            </div>
+            <div class="form-group">
+                <label for="detail">Details</label>
+                <input type="detail" class="form-control height" id="exampleInputPassword1" placeholder="description">
+            </div>
+            <div class="form-group">
+                <label for="location">Where</label>
+                <input type="location" class="form-control" id="exampleInputPassword1" placeholder="location">
+            </div>
+            <div class="form-group">
+                <label for="start">Start</label>
+                <input type="datetime-local" class="form-control" id="exampleInputPassword1" placeholder="location">
+            </div>
+            <div class="form-group">
+                <label for="start">End</label>
+                <input type="datetime-local" class="form-control" id="exampleInputPassword1" placeholder="location">
+            </div>
+            <div class="form-group">
+                <label for="img">Select image:</label>
+                <input type="file" id="img" name="img" accept="image/*">
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Submit</button>
+        </form>
 
     </main>
 
